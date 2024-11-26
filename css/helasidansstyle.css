@@ -1,0 +1,15 @@
+*{
+    padding: none;
+}
+header{
+    height: 10vh;
+}
+h1{
+    text-align: center;
+}
+nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
