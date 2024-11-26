@@ -7,9 +7,22 @@ header{
 h1{
     text-align: center;
 }
+h2{
+    color: black;
+    text-decoration: none;
+    
+}
 nav{
     height: 10vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+}
+a{
+    text-decoration: none;
+}
+main{
+    background-image: url(../img/628493_poster.jpg);
+    background-position: 50% 50%;
+    height: 100vh;
 }
