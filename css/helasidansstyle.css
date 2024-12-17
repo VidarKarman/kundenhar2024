@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 header{
-    height: 5vh;
+    height: 8vh;
 }
 nav{
     height: 10vh;
@@ -28,7 +28,6 @@ a{
     text-decoration: none;
     color: black;
     text-align: center;
-    text-justify: center;
 }
 main{
     background-image: url(../img/628493_poster.jpg);
@@ -42,9 +41,8 @@ main{
 }
 main h3{
     color: #c0392b;
-    font-size: 2;
+    font-size: 21px;
     font-family: "Roboto Flex", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
@@ -64,7 +62,7 @@ main h3{
 }
 h1{
     text-align: center;
-    font-size: 13;
+    font-size: 34px;
     font-family: "Quintessential", serif;
     font-weight: 400;
     font-style: normal;
@@ -72,9 +70,8 @@ h1{
 }
 h2{
     color: black;
-    font-size: 3;
+    font-size: 21px;
     font-family: "Roboto Flex", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
@@ -92,7 +89,7 @@ h2{
 }
 h3{
     font-family: "Roboto Flex", sans-serif;
-    font-optical-sizing: auto;
+    font-size: 13px;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
@@ -110,7 +107,6 @@ h3{
 }
 p{
     font-family: "Roboto Flex", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
@@ -125,6 +121,7 @@ p{
       "YTFI" 738,
       "YTLC" 514,
       "YTUC" 712; 
+      font-size: 13px;
 }
 .quintessential-regular {
     font-family: "Quintessential", serif;
@@ -137,10 +134,42 @@ p{
     justify-content: space-evenly;
     align-items: flex-start;
 }
-section article{
+.sectionarticle1{
     width: 25%;
     height: 50%;
 }
 footer{
     height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #c0392b;
+    color: rgb(255, 255, 255);
+}
+.konstverkslistanssection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.listing{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-areas: 
+    "ig ig"
+    "dv a"
+    ;
+    width: 30vw;
+    height: 38vh;
+}
+img{
+    grid-area: ig;
+    height: 80%;
+    width: 100%;
+}
+.namnilistan{
+    grid-area: dv;
+    height: 20%;
+}
+article a{
+    grid-area: a;
+    height: 20%;
 }
