@@ -43,17 +43,29 @@ main{
 main h3{
     color: #c0392b;
     font-size: 2;
-    font-family: "Quintessential", serif;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "wdth" 100,
+      "GRAD" 0,
+      "XOPQ" 96,
+      "XTRA" 468,
+      "YOPQ" 79,
+      "YTAS" 750,
+      "YTDE" -203,
+      "YTFI" 738,
+      "YTLC" 514,
+      "YTUC" 712;
     
 
 }
 h1{
     text-align: center;
     font-size: 13;
-    text-justify: center;
-    font-family: "Imperial Script", cursive;
+    font-family: "Quintessential", serif;
     font-weight: 400;
     font-style: normal;
       
@@ -61,18 +73,74 @@ h1{
 h2{
     color: black;
     font-size: 3;
-    font-family: "Quintessential", serif;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "wdth" 100,
+      "GRAD" 0,
+      "XOPQ" 96,
+      "XTRA" 468,
+      "YOPQ" 79,
+      "YTAS" 750,
+      "YTDE" -203,
+      "YTFI" 738,
+      "YTLC" 514,
+      "YTUC" 712;
 }
 h3{
-    font-family: "Quintessential", serif;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "wdth" 100,
+      "GRAD" 0,
+      "XOPQ" 96,
+      "XTRA" 468,
+      "YOPQ" 79,
+      "YTAS" 750,
+      "YTDE" -203,
+      "YTFI" 738,
+      "YTLC" 514,
+      "YTUC" 712;
+}
+p{
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "wdth" 100,
+      "GRAD" 0,
+      "XOPQ" 96,
+      "XTRA" 468,
+      "YOPQ" 79,
+      "YTAS" 750,
+      "YTDE" -203,
+      "YTFI" 738,
+      "YTLC" 514,
+      "YTUC" 712; 
 }
 .quintessential-regular {
     font-family: "Quintessential", serif;
     font-weight: 400;
     font-style: normal;
   }
-  
+
+#förstasidanbeskrivningar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+section article{
+    width: 25%;
+    height: 50%;
+}
+footer{
+    height: 10vh;
+}
